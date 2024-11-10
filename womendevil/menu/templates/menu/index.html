@@ -1,0 +1,13 @@
+<table>
+    <tr>
+        <th> Название </th>
+        <th> Состав </th>
+    </tr>
+    {% for Menu in menus %}
+    <tr>
+        <td>{{ Menu.name}}</td>
+        <td>{{ Menu.sostav }}</td>
+        </tr>
+    {% endfor %}
+</table>
+<!--django templates-
