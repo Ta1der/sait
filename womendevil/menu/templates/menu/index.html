@@ -6,7 +6,8 @@
     {% for Menu in menus %}
     <tr>
         <td>{{ Menu.name}}</td>
-        <td>{{ Menu.sostav }}</td>
+        <td>{{ Menu.sostav}}</td>
+        <td><img src="{{ Menu.image.url }}" alt="хуй"></td>
         </tr>
     {% endfor %}
 </table>
