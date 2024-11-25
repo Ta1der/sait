@@ -1,14 +1,41 @@
-<table>
-    <tr>
-        <th> Название </th>
-        <th> Состав </th>
-    </tr>
-    {% for Menu in menus %}
-    <tr>
-        <td>{{ Menu.name}}</td>
-        <td>{{ Menu.sostav}}</td>
-        <td><img src="{{ Menu.image.url }}" alt="хуй"></td>
-        </tr>
-    {% endfor %}
-</table>
-<!--django templates-
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главный экран</title>
+    <link rel="stylesheet" href="{% static 'css/главный.css'%}">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="шапка">
+        <div class="logo">TWB</div> <div class="школа">MBOU SOSH 43</div> <div class="меню">Меню</div>
+    </div>
+    <div class="название">
+        <div class="имя">TaiWoomBurg</div>
+        <div class="подпись">Вкусно, быстро, удобно</div>
+    </div>
+        {% load static %}
+        <div class="one"><img src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="ошибка"></div>
+        <div class="two"><img src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="ошибка"></div>
+        <div class="three"><img src="{% static 'img/изображение_2024-11-24_230317143.png'%}"alt="ошибка"></div>
+    </div>
+
+
+<style>
+@font-face {
+    font-family: 'Montagu Slab';
+    src: url(fonts/MontaguSlab-VariableFont_opsz\,wght.ttf`);
+}
+</style>
+</body>
+</html>
