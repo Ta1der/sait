@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom,
+    background: linear-gradient(to bottom, 
         #000000 0%,
         #BC977A 46%,
         #945745 70%);
@@ -9,16 +9,13 @@ body {
 
 
 
-.шапка {
+.шапка { 
     height: 100px;
     width: 1488px
  }
 
 
 .logo {
-/* Логотип */
-
-
 position: absolute;
 width: 117px;
 height: 38px;
@@ -35,8 +32,6 @@ color: #D7BBBB;
 }
 
 .школа{
-/* название ресторана */
-
 
 position: absolute;
 width: 306px;
@@ -44,19 +39,16 @@ height: 72px;
 left: 609px;
 top: 49px;
 
-font-family: 'Kadwa';
+font-family: 'Kalam';
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 72px;
 
 color: #E4B9B9;
-
-
 }
 
 .меню{
-/* Меню */
 
 position: absolute;
 width: 130px;
@@ -73,8 +65,15 @@ line-height: 52px;
 color: #E4B9B9;
 }
 
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: #E4B9B9;
+}
+
 .имя{
-    /* TaiWoomBurg */
+/* TaiWoomBurg */
 
 position: absolute;
 width: 723px;
@@ -93,7 +92,6 @@ color: #000000;
 }
 
 .подпись{
-    /* Бургеры */
 
 position: absolute;
 width: 370px;
@@ -129,7 +127,6 @@ background: url(image.png);
 }
 
 .two{
-    /* image 7 */
 
 position: fixed;
 width: 206px;
@@ -142,7 +139,6 @@ background: url(image.png);
 }
 
 .three{
-    /* image 8 */
 
 position: fixed;
 width: 206px;

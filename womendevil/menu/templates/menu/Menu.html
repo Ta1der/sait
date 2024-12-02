@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="stylesheet" href="{% static 'css/меню.css'%}">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="шапка">
+        <div class="logo"><a href="{% url 'index' %}" class="text">TWB</a></div> <div class="школа">MBOU SOSH 43</div> <div class="меню">Меню</div>
+    </div>
+    <div class="надпись">Бургеры</div>
+    <div class="окошки"></div>
+        <div class="rectangleOne"> </div>
+            <img class="one" src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="111">
+        <div class="rectangleOneBig"> </div>
+            <div class="названиеодин">Нежный ветер</div>
+            <div class="ценаодин">100 руб.</div>
+            <div class="составодин">Приготовленный на огне бифштекс из 100% говядины с хрустящим маринованным огурчиком, рубленым  луком и кетчупом в подрумяненной булочке с кунжутом</div>
+
+        <div class="rectangleTwo"></div>
+            <img class="two" src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="111">
+        <div class="rectangleTwoBig"></div>
+            <div class="названиедва">Гиганское удовольствие</div>
+            <div class="ценадва">500 руб.</div>
+            <div class="составдва">Теперь ещё больше соуса! Внутри три вкуснейших бифштекса, приготовленных на огне, сочные томаты, салат Айсберг, щедрая порция майонеза, маринованные огурчики и свежий лук на
+                нежной булочке с кунжутом.</div>
+
+
+        <div class="rectangleThree"></div>
+            <img class="three" src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="111">
+        <div class="rectangleThreeBig"></div>
+            <div class="названиетри">Крошечная радость</div>
+            <div class="ценатри">50 руб.</div>
+            <div class="составтри">Рубленый бифштекс из натуральной цельной говядины с кусочками сыра Чеддер на карамелизованной булочке, заправленной горчицей, кетчупом, луком и кусочком маринованного огурчика</div>
+
+        <div class="rectangleFour"></div>
+            <img class="four" src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="111">
+        <div class="rectangleFourBig"></div>
+            <div class="названиечетыре">Двойная удача</div>
+            <div class="ценачетыре">200 руб.</div>
+            <div class="составчетыре">Два приготовленных на огне фирменных говяжьих бифштекса, ломтик сыра, хрустящий маринованный огурчик, два листа айсберга, лук, горчица и кетчуп. И все это в подрумяненной и посыпанной кунжутом булочке.</div>
+
+<style>
+@font-face {
+    font-family: 'Montagu Slab';
+    src: url(fonts/MontaguSlab-VariableFont_opsz\,wght.ttf`);
+}
+@font-face {
+    font-family: 'Kadwa Bold';
+    src: url(fonts/kadwa/Kadwa-Bold.ttf);
+}
+@font-face {
+    font-family: 'Kadwa';
+    src: url(fonts/kadwa/Kadwa-Regular.ttf);
+}
+@font-face {
+    font-family: 'Rufina Bold';
+    src: url(fonts/rufina/Rufina-Bold.ttf);
+}
+@font-face {
+    font-family: 'Rufina';
+    src: url(fonts/rufina/Rufina-Regular.ttf);
+}
+</style>
+</body>
+</html>
