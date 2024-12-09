@@ -65,6 +65,12 @@ line-height: 52px;
 color: #E4B9B9;
 }
 
+a.textone:active, /* активная/посещенная ссылка */
+a.textone:hover,  /* при наведении */
+a.textone {
+  text-decoration: none;
+  color: #E4B9B9;
+}
 a.text:active, /* активная/посещенная ссылка */
 a.text:hover,  /* при наведении */
 a.text {

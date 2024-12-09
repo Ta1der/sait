@@ -12,3 +12,5 @@ def index(request):
 
 def menus(request):
     return render(request, "menu/Menu.html", {})
+def adres(request):
+    return render(request, "menu/mbousosh.html", {})
