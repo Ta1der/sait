@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(to bottom, 
+        #000000 0%,
+        #BC977A 46%,
+        #945745 70%);
+    height: 100vh; /* Задает высоту на весь экран */
+    margin: 0; /* Убирает отступы */
+}
+
+
+
+.шапка { 
+    height: 100px;
+    width: 1488px
+ }
+
+
+.logo {
+position: absolute;
+width: 117px;
+height: 38px;
+left: 95px;
+top: 51px;
+
+font-family: 'Montagu Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 51px;
+
+color: #D7BBBB;
+}
+
+.школа{
+
+position: absolute;
+width: 306px;
+height: 72px;
+left: 609px;
+top: 49px;
+
+font-family: 'Kalam';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 72px;
+
+color: #E4B9B9;
+}
+
+.меню{
+
+position: absolute;
+width: 130px;
+height: 39px;
+left: 1300px;
+top: 50px;
+
+font-family: 'Rum Raisin';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #E4B9B9;
+}
+
+a.textone:active, /* активная/посещенная ссылка */
+a.textone:hover,  /* при наведении */
+a.textone {
+  text-decoration: none;
+  color: #E4B9B9;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: #E4B9B9;
+}
+
+.имя{
+/* TaiWoomBurg */
+
+position: absolute;
+width: 723px;
+height: 122px;
+left: 401px;
+top: 253px;
+
+font-family: 'Montagu Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 115px;
+text-align: center;
+
+color: #000000;
+}
+
+.подпись{
+
+position: absolute;
+width: 370px;
+height: 44px;
+left: 580px;
+top: 375px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+img {
+    width: 206px;
+    height: 180px;
+}
+
+.one{
+position: fixed;
+width: 206px;
+height: 180px;
+left: 445px;
+top: 520px;
+
+background: url(image.png);
+
+}
+
+.two{
+
+position: fixed;
+width: 206px;
+    height: 180px;
+left: 676.6px;
+top: 520px;
+
+background: url(image.png);
+
+}
+
+.three{
+
+position: fixed;
+width: 206px;
+height: 180px;
+left: 908.19px;
+top: 520px;
+
+background: url(image.png);
+}

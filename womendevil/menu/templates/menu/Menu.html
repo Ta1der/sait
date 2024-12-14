@@ -1,0 +1,40 @@
+{% extends "menu/index.html" %}
+{% load static %}
+{% block content %}
+
+
+
+    <div class="надпись">Бургеры</div>
+    <div class="окошки"></div>
+{% for m in menus %}
+        <div class="rectangleOne"> </div>
+            <img class="one" src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="111">
+        <div class="rectangleOneBig"> </div>
+            <div class="названиеодин">{{m.name}}</div>
+            <div class="ценаодин">100 руб.</div>
+            <div class="составодин">Приготовленный на огне бифштекс из 100% говядины с хрустящим маринованным огурчиком, рубленым  луком и кетчупом в подрумяненной булочке с кунжутом</div>
+    {% endfor %}
+<style>
+@font-face {
+    font-family: 'Montagu Slab';
+    src: url(fonts/MontaguSlab-VariableFont_opsz\,wght.ttf`);
+}
+@font-face {
+    font-family: 'Kadwa Bold';
+    src: url(fonts/kadwa/Kadwa-Bold.ttf);
+}
+@font-face {
+    font-family: 'Kadwa';
+    src: url(fonts/kadwa/Kadwa-Regular.ttf);
+}
+@font-face {
+    font-family: 'Rufina Bold';
+    src: url(fonts/rufina/Rufina-Bold.ttf);
+}
+@font-face {
+    font-family: 'Rufina';
+    src: url(fonts/rufina/Rufina-Regular.ttf);
+}
+</style>
+{% endblock content %}
+</html>
