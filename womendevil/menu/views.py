@@ -3,14 +3,19 @@ from .models import Menu
 
 
 def index(request):
-    men = Menu.objects.all()
+    mendevil = Menu.objects.all()
     context = {
-        "menus": men
+        "menus": mendevil
     }
-    return render(request, "menu/index.html", context)
+    return render(request, "menu/main.html", context)
 
 
 def menus(request):
-    return render(request, "menu/Menu.html", {})
+    mendevil = Menu.objects.all()
+    context = {
+        "menus": mendevil
+    }
+    print(mendevil)
+    return render(request, "menu/Menu.html", context)
 def adres(request):
     return render(request, "menu/mbousosh.html", {})

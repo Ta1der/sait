@@ -113,7 +113,6 @@ color: #000000;
 
 .rectangleOne{
 
-position: absolute;
 width: 352.85px;
 height: 335.37px;
 left: 66px;
@@ -125,7 +124,6 @@ border-radius: 50px;
 }
 .rectangleOneBig{
 
-position: absolute;
 width: 871px;
 height: 335px;
 left: 544px;
