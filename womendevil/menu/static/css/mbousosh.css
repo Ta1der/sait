@@ -15,7 +15,7 @@ a.textone {
   color: #E4B9B9;
 }
 
-a.text:active, /* активная/посещенная ссылка */
+a.text:active, /* 123активная/посещенная ссылка */
 a.text:hover,  /* при наведении */
 a.text {
   text-decoration: none;
