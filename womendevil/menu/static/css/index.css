@@ -1,0 +1,70 @@
+
+
+.шапка { 
+    height: 100px;
+    width: 1488px
+ }
+
+
+.logo {
+position: absolute;
+width: 117px;
+height: 38px;
+left: 95px;
+top: 51px;
+
+font-family: 'Montagu Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 51px;
+
+color: #D7BBBB;
+}
+
+.школа{
+
+position: absolute;
+width: 306px;
+height: 72px;
+left: 609px;
+top: 49px;
+
+font-family: 'Kalam';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 72px;
+
+color: #E4B9B9;
+}
+
+.меню{
+
+position: absolute;
+width: 130px;
+height: 39px;
+left: 1300px;
+top: 50px;
+
+font-family: 'Rum Raisin';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #E4B9B9;
+}
+
+a.textone:active, /* активная/посещенная ссылка */
+a.textone:hover,  /* при наведении */
+a.textone {
+  text-decoration: none;
+  color: #E4B9B9;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: #E4B9B9;
+}

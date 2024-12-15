@@ -2,76 +2,12 @@ body{
     background: linear-gradient(to bottom, 
     #AD8B72 13%,
     #855443 28%,
-    #503B35 85%);
-    
+    #503B35 85%);  
 height: 100vh; /* Задает высоту на весь экран */
 margin: 0; /* Убирает отступы */
 }
 
-a.textone:active, /* активная/посещенная ссылка */
-a.textone:hover,  /* при наведении */
-a.textone {
-  text-decoration: none;
-  color: #E4B9B9;
-}
-
-a.text:active, /* 123активная/посещенная ссылка */
-a.text:hover,  /* при наведении */
-a.text {
-  text-decoration: none;
-  color: #E4B9B9;
-}
-
-.TWB{
-    position: absolute;
-width: 117px;
-height: 38px;
-left: 7%;
-top: 51px;
-
-font-family: 'Montagu Slab';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 51px;
-color: #E4B9B9;
-}
-
-.MBOUSOSH{
-    
-position: absolute;
-width: 306px;
-height: 72px;
-left: 40%;
-top: 49px;
-
-font-family: 'Kalam';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 72px;
-
-color: #E4B9B9;
-}
-
-.menu{
-    position: absolute;
-    width: 130px;
-    height: 39px;
-    left: 86%;
-    top: 50px;
-    
-    font-family: 'Rum Raisin';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    
-    color: #E4B9B9;
-}
 .zagolovok{
-    /* Адрес и контакты */
-
 position: absolute;
 width: 423px;
 height: 58px;
@@ -105,7 +41,6 @@ color: #FFEFE8;
 }
 
 .mnogotexta{
-  
 position: absolute;
 width: 728px;
 height: 128px;
@@ -123,8 +58,6 @@ color: #FFEFE8;
 
 
 .textlittle{
-    
-
 position: absolute;
 width: 742px;
 height: 35px;
@@ -141,8 +74,6 @@ color: #FFEFE8;
 }
 
 .telefon{
-    
-
 position: absolute;
 width: 541px;
 height: 35px;
@@ -159,8 +90,6 @@ color: #FFEFE8;
 }
 
 .email{
-    
-
 position: absolute;
 width: 546px;
 height: 38px;
@@ -174,30 +103,33 @@ font-size: 32px;
 line-height: 38px;
 
 color: #FFEFE8;
-
 }
 
 .picture{
-    /* image 10 */
-
 position: absolute;
 width: 167px;
 height: 85px;
-left: 86%;
-top: 650px;
+    left: 74%;
+    top: 76%;
 
 background: url(.png);
 }
 
 .karta{
-    /* image 9 */
-
-position: absolute;
+position: fixed;
 width: 533px;
 height: 457px;
 left: 4%;
 top: 230px;
 
 background: url(image.png);
+background-size: cover
+}
 
+img.picture{
+    background-size: cover
+}
+img.karta{
+    width: 533px;
+    height: 457px;
 }
