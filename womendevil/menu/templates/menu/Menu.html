@@ -5,15 +5,17 @@
 
 
     <div class="надпись">Бургеры</div>
-    <div class="окошки"></div>
 {% for m in menus %}
+    <div class="окошки">
+
         <div class="rectangleOne"> </div>
-            <img class="one" src="{% static 'img/изображение_2024-11-24_230317143.png'%}" alt="111">
+        <img class="one" src={{m.image}} alt="111">
         <div class="rectangleOneBig"> </div>
-            <div class="названиеодин">{{m.name}}</div>
-            <div class="ценаодин">100 руб.</div>
-            <div class="составодин">Приготовленный на огне бифштекс из 100% говядины с хрустящим маринованным огурчиком, рубленым  луком и кетчупом в подрумяненной булочке с кунжутом</div>
-    {% endfor %}
+        <div class="названиеодин">{{m.name}}</div>
+        <div class="ценаодин">100 руб.</div>
+        <div class="составодин">{{m.sostav}}</div>
+    </div>
+{% endfor %}
 <style>
 @font-face {
     font-family: 'Montagu Slab';
