@@ -1,4 +1,13 @@
-
+body{
+  background: linear-gradient(to bottom, 
+  #000000 0%,
+  #BC977A 46%,
+  #945745 70%);
+  background-repeat: no-repeat;
+  height: 100vh; /* Задает высоту на весь экран */
+  /*margin: 0; /* Убирает отступы */
+  background-color: #945745; 
+}
 
 .шапка { 
     height: 100px;

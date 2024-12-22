@@ -1,11 +1,3 @@
-body{
-    background: linear-gradient(to bottom, 
-    #AD8B72 13%,
-    #855443 28%,
-    #503B35 85%);  
-height: 100vh; /* Задает высоту на весь экран */
-margin: 0; /* Убирает отступы */
-}
 
 .zagolovok{
 position: absolute;

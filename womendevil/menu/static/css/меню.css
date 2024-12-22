@@ -1,20 +1,3 @@
-body {
-    background: linear-gradient(to bottom,
-        #000000 5%,
-        #BC977A 40%);
-    background-repeat: no-repeat;
-    height: 100vh; /* Задает высоту на весь экран */
-    /*margin: 0; /* Убирает отступы */
-    background-color: #BC977A; /*делать так нельязя, но сработало же :) */
-}
-/*
-body {
-    background: linear-gradient(to bottom,
-        #000000 0%,
-        #BC977A 46%,
-        #945745 70%);
-    height: 100vh; /* Задает высоту на весь экран */
- /*   margin: 0; /* Убирает отступы */
 
 .надпись{
    /* Бургеры */
