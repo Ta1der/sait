@@ -9,7 +9,8 @@
     <div class="окошки">
 
         <div class="rectangleOne"> </div>
-        <img class="one" src={{m.image}} alt="111">
+        <img class="one" src="{% static 'img/{{m.image}}.png'%}" alt="111">
+        <!-- <img class="one" src={{m.image}} alt="111"> -->
         <div class="rectangleOneBig"> </div>
         <div class="названиеодин">{{m.name}}</div>
         <div class="ценаодин">{{m.cena}}</div>
